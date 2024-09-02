@@ -1,0 +1,506 @@
+2024-08-29 14:17:57.594 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-29 14:17:57.617 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/swagger/index.html - null null
+2024-08-29 14:17:57.638 -07:00 [INF] Hosting environment: Development
+2024-08-29 14:17:57.639 -07:00 [INF] Content root path: C:\Users\Orange\Downloads\Core Task 6\core-task-6\backend\Task3
+2024-08-29 14:17:57.861 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - null null
+2024-08-29 14:17:57.861 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-29 14:17:57.862 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/swagger/index.html - 200 null text/html;charset=utf-8 249.9413ms
+2024-08-29 14:17:57.865 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 3.4904ms
+2024-08-29 14:17:57.912 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.4185ms
+2024-08-29 14:17:58.037 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - null null
+2024-08-29 14:17:58.158 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 120.999ms
+2024-08-29 14:18:08.868 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/api/Values/All - null null
+2024-08-29 14:18:08.905 -07:00 [INF] Executing endpoint 'Task3.Controllers.ValuesController.GetAllProducts (Task3)'
+2024-08-29 14:18:08.935 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller Task3.Controllers.ValuesController (Task3).
+2024-08-29 14:18:11.963 -07:00 [INF] Executed DbCommand (69ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[description], [p].[image], [p].[price], [p].[product_name]
+FROM [Products] AS [p]
+2024-08-29 14:18:12.142 -07:00 [INF] esraa  
+2024-08-29 14:18:12.156 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Task3.Models.Product, Task3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 14:18:12.221 -07:00 [INF] Executed action Task3.Controllers.ValuesController.GetAllProducts (Task3) in 3278.9815ms
+2024-08-29 14:18:12.222 -07:00 [INF] Executed endpoint 'Task3.Controllers.ValuesController.GetAllProducts (Task3)'
+2024-08-29 14:18:12.237 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/api/Values/All - 200 null application/json; charset=utf-8 3368.9619ms
+2024-08-29 14:23:05.456 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-29 14:23:05.475 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/swagger/index.html - null null
+2024-08-29 14:23:05.491 -07:00 [INF] Hosting environment: Development
+2024-08-29 14:23:05.492 -07:00 [INF] Content root path: C:\Users\Orange\Downloads\Core Task 6\core-task-6\backend\Task3
+2024-08-29 14:23:05.693 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/swagger/index.html - 200 null text/html;charset=utf-8 221.5428ms
+2024-08-29 14:23:05.697 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-29 14:23:05.700 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - null null
+2024-08-29 14:23:05.704 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 5.9572ms
+2024-08-29 14:23:05.750 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.0721ms
+2024-08-29 14:23:05.781 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - null null
+2024-08-29 14:23:05.878 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 96.5301ms
+2024-08-29 14:23:13.505 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/api/Values/All - null null
+2024-08-29 14:23:13.522 -07:00 [INF] Executing endpoint 'Task3.Controllers.ValuesController.GetAllProducts (Task3)'
+2024-08-29 14:23:13.548 -07:00 [INF] Route matched with {action = "GetAllProducts", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllProducts() on controller Task3.Controllers.ValuesController (Task3).
+2024-08-29 14:23:16.363 -07:00 [INF] Executed DbCommand (51ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[description], [p].[image], [p].[price], [p].[product_name]
+FROM [Products] AS [p]
+2024-08-29 14:23:16.527 -07:00 [INF] esraa  23
+2024-08-29 14:23:16.541 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Task3.Models.Product, Task3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 14:23:16.599 -07:00 [INF] Executed action Task3.Controllers.ValuesController.GetAllProducts (Task3) in 3044.1083ms
+2024-08-29 14:23:16.600 -07:00 [INF] Executed endpoint 'Task3.Controllers.ValuesController.GetAllProducts (Task3)'
+2024-08-29 14:23:16.618 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/api/Values/All - 200 null application/json; charset=utf-8 3113.0532ms
+2024-08-29 14:44:25.211 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/api/Categories/AllCategories - null null
+2024-08-29 14:44:25.234 -07:00 [INF] CORS policy execution successful.
+2024-08-29 14:44:25.237 -07:00 [INF] Executing endpoint 'Task3.Controllers.CategoriesController.GetAllCategories (Task3)'
+2024-08-29 14:44:25.242 -07:00 [INF] Route matched with {action = "GetAllCategories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllCategories() on controller Task3.Controllers.CategoriesController (Task3).
+2024-08-29 14:44:25.302 -07:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[category_id], [c].[category_name], [c].[image]
+FROM [Categories] AS [c]
+2024-08-29 14:44:25.324 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Task3.Models.Category, Task3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 14:44:25.331 -07:00 [INF] Executed action Task3.Controllers.CategoriesController.GetAllCategories (Task3) in 88.1357ms
+2024-08-29 14:44:25.331 -07:00 [INF] Executed endpoint 'Task3.Controllers.CategoriesController.GetAllCategories (Task3)'
+2024-08-29 14:44:25.332 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/api/Categories/AllCategories - 200 null application/json; charset=utf-8 121.5642ms
+2024-08-29 14:44:34.182 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/api/Products/ProductsByCategoryId/2 - null null
+2024-08-29 14:44:34.184 -07:00 [INF] CORS policy execution successful.
+2024-08-29 14:44:34.184 -07:00 [INF] Executing endpoint 'Task3.Controllers.ProductsController.GetProductsByCategoryId (Task3)'
+2024-08-29 14:44:34.198 -07:00 [INF] Route matched with {action = "GetProductsByCategoryId", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProductsByCategoryId(Int32) on controller Task3.Controllers.ProductsController (Task3).
+2024-08-29 14:44:34.594 -07:00 [INF] Executed DbCommand (61ms) [Parameters=[@__categoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[product_id], [p].[category_id], [p].[description], [p].[image], [p].[price], [p].[product_name]
+FROM [Products] AS [p]
+WHERE [p].[category_id] = @__categoryId_0
+2024-08-29 14:44:34.598 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Task3.Models.Product, Task3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 14:44:34.599 -07:00 [INF] Executed action Task3.Controllers.ProductsController.GetProductsByCategoryId (Task3) in 400.8387ms
+2024-08-29 14:44:34.599 -07:00 [INF] Executed endpoint 'Task3.Controllers.ProductsController.GetProductsByCategoryId (Task3)'
+2024-08-29 14:44:34.600 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/api/Products/ProductsByCategoryId/2 - 200 null application/json; charset=utf-8 417.7838ms
+2024-08-29 14:44:37.211 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/api/Products/Product/8 - null null
+2024-08-29 14:44:37.217 -07:00 [INF] CORS policy execution successful.
+2024-08-29 14:44:37.218 -07:00 [INF] Executing endpoint 'Task3.Controllers.ProductsController.GetProductById (Task3)'
+2024-08-29 14:44:37.222 -07:00 [INF] Route matched with {action = "GetProductById", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProductById(Int32) on controller Task3.Controllers.ProductsController (Task3).
+2024-08-29 14:44:37.248 -07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[product_id], [p].[category_id], [p].[description], [p].[image], [p].[price], [p].[product_name]
+FROM [Products] AS [p]
+WHERE [p].[product_id] = @__id_0
+2024-08-29 14:44:37.249 -07:00 [INF] Executing OkObjectResult, writing value of type 'Task3.Models.Product'.
+2024-08-29 14:44:37.254 -07:00 [INF] Executed action Task3.Controllers.ProductsController.GetProductById (Task3) in 31.8066ms
+2024-08-29 14:44:37.254 -07:00 [INF] Executed endpoint 'Task3.Controllers.ProductsController.GetProductById (Task3)'
+2024-08-29 14:44:37.254 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/api/Products/Product/8 - 200 null application/json; charset=utf-8 43.9362ms
+2024-08-29 14:44:38.702 -07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44384/AddItem - null null
+2024-08-29 14:44:38.703 -07:00 [INF] CORS policy execution successful.
+2024-08-29 14:44:38.706 -07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44384/AddItem - 204 null null 4.4415ms
+2024-08-29 14:44:38.710 -07:00 [INF] Request starting HTTP/2 POST https://localhost:44384/AddItem - application/json 39
+2024-08-29 14:44:38.710 -07:00 [INF] CORS policy execution successful.
+2024-08-29 14:44:38.710 -07:00 [INF] Executing endpoint 'Task3.Controllers.CartItemsController.AddCartItem (Task3)'
+2024-08-29 14:44:38.714 -07:00 [INF] Route matched with {action = "AddCartItem", controller = "CartItems"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddCartItem(Task3.DTOs.AddCartItemsDto) on controller Task3.Controllers.CartItemsController (Task3).
+2024-08-29 14:44:39.007 -07:00 [INF] Executed DbCommand (25ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CartItems] ([CartID], [ProductID], [Quantity])
+OUTPUT INSERTED.[CartItemID]
+VALUES (@p0, @p1, @p2);
+2024-08-29 14:44:39.051 -07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Task3.Models.CartItem, Task3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 14:44:39.068 -07:00 [INF] Executed action Task3.Controllers.CartItemsController.AddCartItem (Task3) in 354.2679ms
+2024-08-29 14:44:39.068 -07:00 [INF] Executed endpoint 'Task3.Controllers.CartItemsController.AddCartItem (Task3)'
+2024-08-29 14:44:39.069 -07:00 [INF] Request finished HTTP/2 POST https://localhost:44384/AddItem - 200 null application/json; charset=utf-8 359.4295ms
+2024-08-29 14:44:45.845 -07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44384/AddItem - null null
+2024-08-29 14:44:45.845 -07:00 [INF] CORS policy execution successful.
+2024-08-29 14:44:45.847 -07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44384/AddItem - 204 null null 2.0506ms
+2024-08-29 14:44:45.853 -07:00 [INF] Request starting HTTP/2 POST https://localhost:44384/AddItem - application/json 40
+2024-08-29 14:44:45.853 -07:00 [INF] CORS policy execution successful.
+2024-08-29 14:44:45.853 -07:00 [INF] Executing endpoint 'Task3.Controllers.CartItemsController.AddCartItem (Task3)'
+2024-08-29 14:44:45.854 -07:00 [INF] Route matched with {action = "AddCartItem", controller = "CartItems"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddCartItem(Task3.DTOs.AddCartItemsDto) on controller Task3.Controllers.CartItemsController (Task3).
+2024-08-29 14:44:45.879 -07:00 [INF] Executed DbCommand (19ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CartItems] ([CartID], [ProductID], [Quantity])
+OUTPUT INSERTED.[CartItemID]
+VALUES (@p0, @p1, @p2);
+2024-08-29 14:44:45.936 -07:00 [ERR] An exception occurred in the database while saving changes for context type 'Task3.Models.MyDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'UQ__CartItem__9AFC1BF83FEEDA8D'. Cannot insert duplicate key in object 'dbo.CartItems'. The duplicate key value is (1, 8).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+ClientConnectionId:4043c83c-b508-44b3-affb-bebddd35ba15
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'UQ__CartItem__9AFC1BF83FEEDA8D'. Cannot insert duplicate key in object 'dbo.CartItems'. The duplicate key value is (1, 8).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+ClientConnectionId:4043c83c-b508-44b3-affb-bebddd35ba15
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2024-08-29 14:44:52.912 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-29 14:44:52.944 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/swagger/index.html - null null
+2024-08-29 14:44:52.944 -07:00 [INF] Request starting HTTP/2 POST https://localhost:44384/AddItem - application/json 40
+2024-08-29 14:44:52.971 -07:00 [INF] Hosting environment: Development
+2024-08-29 14:44:52.973 -07:00 [INF] Content root path: C:\Users\Orange\Downloads\Core Task 6\core-task-6\backend\Task3
+2024-08-29 14:44:53.012 -07:00 [INF] CORS policy execution successful.
+2024-08-29 14:44:53.029 -07:00 [INF] Executing endpoint 'Task3.Controllers.CartItemsController.AddCartItem (Task3)'
+2024-08-29 14:44:53.075 -07:00 [INF] Route matched with {action = "AddCartItem", controller = "CartItems"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddCartItem(Task3.DTOs.AddCartItemsDto) on controller Task3.Controllers.CartItemsController (Task3).
+2024-08-29 14:44:53.262 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/swagger/index.html - 200 null text/html;charset=utf-8 329.3091ms
+2024-08-29 14:44:53.266 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-29 14:44:53.267 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - null null
+2024-08-29 14:44:53.271 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 4.7437ms
+2024-08-29 14:44:53.309 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.4052ms
+2024-08-29 14:44:53.460 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - null null
+2024-08-29 14:44:53.599 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 139.4684ms
+2024-08-29 14:44:54.519 -07:00 [INF] Executed DbCommand (33ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CartItems] ([CartID], [ProductID], [Quantity])
+OUTPUT INSERTED.[CartItemID]
+VALUES (@p0, @p1, @p2);
+2024-08-29 14:44:54.553 -07:00 [ERR] An exception occurred in the database while saving changes for context type 'Task3.Models.MyDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'UQ__CartItem__9AFC1BF83FEEDA8D'. Cannot insert duplicate key in object 'dbo.CartItems'. The duplicate key value is (1, 8).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+ClientConnectionId:eb0f332a-7636-45ea-aabb-9e2ab661777c
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'UQ__CartItem__9AFC1BF83FEEDA8D'. Cannot insert duplicate key in object 'dbo.CartItems'. The duplicate key value is (1, 8).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+ClientConnectionId:eb0f332a-7636-45ea-aabb-9e2ab661777c
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2024-08-29 14:46:35.057 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-29 14:46:35.080 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/swagger/index.html - null null
+2024-08-29 14:46:35.099 -07:00 [INF] Hosting environment: Development
+2024-08-29 14:46:35.099 -07:00 [INF] Content root path: C:\Users\Orange\Downloads\Core Task 6\core-task-6\backend\Task3
+2024-08-29 14:46:35.340 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/swagger/index.html - 200 null text/html;charset=utf-8 267.0608ms
+2024-08-29 14:46:35.346 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-29 14:46:35.350 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 3.8227ms
+2024-08-29 14:46:35.365 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - null null
+2024-08-29 14:46:35.404 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.5105ms
+2024-08-29 14:46:35.541 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - null null
+2024-08-29 14:46:35.704 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 163.5798ms
+2024-08-29 14:46:36.901 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/api/Categories/AllCategories - null null
+2024-08-29 14:46:36.914 -07:00 [INF] CORS policy execution successful.
+2024-08-29 14:46:36.927 -07:00 [INF] Executing endpoint 'Task3.Controllers.CategoriesController.GetAllCategories (Task3)'
+2024-08-29 14:46:36.948 -07:00 [INF] Route matched with {action = "GetAllCategories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllCategories() on controller Task3.Controllers.CategoriesController (Task3).
+2024-08-29 14:46:37.640 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/AllItems - null null
+2024-08-29 14:46:37.641 -07:00 [INF] CORS policy execution successful.
+2024-08-29 14:46:37.641 -07:00 [INF] Executing endpoint 'Task3.Controllers.CartItemsController.GetAllCartItems (Task3)'
+2024-08-29 14:46:37.644 -07:00 [INF] Route matched with {action = "GetAllCartItems", controller = "CartItems"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllCartItems() on controller Task3.Controllers.CartItemsController (Task3).
+2024-08-29 14:46:37.779 -07:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[Task3.DTOs.CartItemsResponsive, Task3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 14:46:38.890 -07:00 [INF] Executed DbCommand (65ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[category_id], [c].[category_name], [c].[image]
+FROM [Categories] AS [c]
+2024-08-29 14:46:38.890 -07:00 [INF] Executed DbCommand (68ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[Quantity], [p].[product_name] AS [ProductName], [p].[price] AS [Price], [p].[image] AS [Image]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[product_id]
+2024-08-29 14:46:38.948 -07:00 [INF] Executed action Task3.Controllers.CartItemsController.GetAllCartItems (Task3) in 1296.587ms
+2024-08-29 14:46:38.949 -07:00 [INF] Executed endpoint 'Task3.Controllers.CartItemsController.GetAllCartItems (Task3)'
+2024-08-29 14:46:38.969 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/AllItems - 200 null application/json; charset=utf-8 1329.3793ms
+2024-08-29 14:46:39.016 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Task3.Models.Category, Task3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 14:46:39.050 -07:00 [INF] Executed action Task3.Controllers.CategoriesController.GetAllCategories (Task3) in 2101.4342ms
+2024-08-29 14:46:39.051 -07:00 [INF] Executed endpoint 'Task3.Controllers.CategoriesController.GetAllCategories (Task3)'
+2024-08-29 14:46:39.052 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/api/Categories/AllCategories - 499 null application/json; charset=utf-8 2151.0364ms
+2024-08-29 14:46:39.500 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/api/Products/Product/8 - null null
+2024-08-29 14:46:39.504 -07:00 [INF] CORS policy execution successful.
+2024-08-29 14:46:39.504 -07:00 [INF] Executing endpoint 'Task3.Controllers.ProductsController.GetProductById (Task3)'
+2024-08-29 14:46:39.521 -07:00 [INF] Route matched with {action = "GetProductById", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProductById(Int32) on controller Task3.Controllers.ProductsController (Task3).
+2024-08-29 14:46:39.824 -07:00 [INF] Executed DbCommand (74ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[product_id], [p].[category_id], [p].[description], [p].[image], [p].[price], [p].[product_name]
+FROM [Products] AS [p]
+WHERE [p].[product_id] = @__id_0
+2024-08-29 14:46:39.870 -07:00 [INF] Executing OkObjectResult, writing value of type 'Task3.Models.Product'.
+2024-08-29 14:46:39.884 -07:00 [INF] Executed action Task3.Controllers.ProductsController.GetProductById (Task3) in 362.6129ms
+2024-08-29 14:46:39.885 -07:00 [INF] Executed endpoint 'Task3.Controllers.ProductsController.GetProductById (Task3)'
+2024-08-29 14:46:39.886 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/api/Products/Product/8 - 200 null application/json; charset=utf-8 385.5214ms
+2024-08-29 14:46:45.290 -07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44384/AddItem - null null
+2024-08-29 14:46:45.291 -07:00 [INF] CORS policy execution successful.
+2024-08-29 14:46:45.295 -07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44384/AddItem - 204 null null 5.744ms
+2024-08-29 14:46:45.299 -07:00 [INF] Request starting HTTP/2 POST https://localhost:44384/AddItem - application/json 40
+2024-08-29 14:46:45.300 -07:00 [INF] CORS policy execution successful.
+2024-08-29 14:46:45.300 -07:00 [INF] Executing endpoint 'Task3.Controllers.CartItemsController.AddCartItem (Task3)'
+2024-08-29 14:46:45.306 -07:00 [INF] Route matched with {action = "AddCartItem", controller = "CartItems"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddCartItem(Task3.DTOs.AddCartItemsDto) on controller Task3.Controllers.CartItemsController (Task3).
+2024-08-29 14:46:45.589 -07:00 [INF] Executed DbCommand (25ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CartItems] ([CartID], [ProductID], [Quantity])
+OUTPUT INSERTED.[CartItemID]
+VALUES (@p0, @p1, @p2);
+2024-08-29 14:46:45.630 -07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Task3.Models.CartItem, Task3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 14:46:45.645 -07:00 [INF] Executed action Task3.Controllers.CartItemsController.AddCartItem (Task3) in 338.8508ms
+2024-08-29 14:46:45.645 -07:00 [INF] Executed endpoint 'Task3.Controllers.CartItemsController.AddCartItem (Task3)'
+2024-08-29 14:46:45.646 -07:00 [INF] Request finished HTTP/2 POST https://localhost:44384/AddItem - 200 null application/json; charset=utf-8 346.9348ms
+2024-08-29 14:47:17.920 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/api/Categories/AllCategories - null null
+2024-08-29 14:47:17.922 -07:00 [INF] CORS policy execution successful.
+2024-08-29 14:47:17.922 -07:00 [INF] Executing endpoint 'Task3.Controllers.CategoriesController.GetAllCategories (Task3)'
+2024-08-29 14:47:17.923 -07:00 [INF] Route matched with {action = "GetAllCategories", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllCategories() on controller Task3.Controllers.CategoriesController (Task3).
+2024-08-29 14:47:17.927 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[category_id], [c].[category_name], [c].[image]
+FROM [Categories] AS [c]
+2024-08-29 14:47:17.929 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Task3.Models.Category, Task3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 14:47:17.930 -07:00 [INF] Executed action Task3.Controllers.CategoriesController.GetAllCategories (Task3) in 7.5238ms
+2024-08-29 14:47:17.931 -07:00 [INF] Executed endpoint 'Task3.Controllers.CategoriesController.GetAllCategories (Task3)'
+2024-08-29 14:47:17.931 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/api/Categories/AllCategories - 200 null application/json; charset=utf-8 10.9928ms
+2024-08-29 15:03:26.547 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/WeatherForecast/checkMultiple?number=5 - null null
+2024-08-29 15:03:26.551 -07:00 [INF] Executing endpoint 'Task3.Controllers.WeatherForecastController.CheckMultiple (Task3)'
+2024-08-29 15:03:26.596 -07:00 [INF] Route matched with {action = "CheckMultiple", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CheckMultiple(Int32) on controller Task3.Controllers.WeatherForecastController (Task3).
+2024-08-29 15:03:26.624 -07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType7`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-29 15:03:26.629 -07:00 [INF] Executed action Task3.Controllers.WeatherForecastController.CheckMultiple (Task3) in 33.0659ms
+2024-08-29 15:03:26.629 -07:00 [INF] Executed endpoint 'Task3.Controllers.WeatherForecastController.CheckMultiple (Task3)'
+2024-08-29 15:03:26.630 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/WeatherForecast/checkMultiple?number=5 - 200 null application/json; charset=utf-8 83.421ms
+2024-08-29 15:57:57.030 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/api/Products/Product/1 - null null
+2024-08-29 15:57:57.033 -07:00 [INF] CORS policy execution successful.
+2024-08-29 15:57:57.033 -07:00 [INF] Executing endpoint 'Task3.Controllers.ProductsController.GetProductById (Task3)'
+2024-08-29 15:57:57.034 -07:00 [INF] Route matched with {action = "GetProductById", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProductById(Int32) on controller Task3.Controllers.ProductsController (Task3).
+2024-08-29 15:57:57.071 -07:00 [INF] Executed DbCommand (22ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[product_id], [p].[category_id], [p].[description], [p].[image], [p].[price], [p].[product_name]
+FROM [Products] AS [p]
+WHERE [p].[product_id] = @__id_0
+2024-08-29 15:57:57.072 -07:00 [INF] Executing OkObjectResult, writing value of type 'Task3.Models.Product'.
+2024-08-29 15:57:57.073 -07:00 [INF] Executed action Task3.Controllers.ProductsController.GetProductById (Task3) in 38.6907ms
+2024-08-29 15:57:57.073 -07:00 [INF] Executed endpoint 'Task3.Controllers.ProductsController.GetProductById (Task3)'
+2024-08-29 15:57:57.073 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/api/Products/Product/1 - 200 null application/json; charset=utf-8 43.4789ms
+2024-08-29 16:32:15.356 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-29 16:32:15.374 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/swagger/index.html - null null
+2024-08-29 16:32:15.391 -07:00 [INF] Hosting environment: Development
+2024-08-29 16:32:15.392 -07:00 [INF] Content root path: C:\Users\Orange\Downloads\Core Task 6\core-task-6\backend\Task3
+2024-08-29 16:32:15.580 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - null null
+2024-08-29 16:32:15.580 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-29 16:32:15.579 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/swagger/index.html - 200 null text/html;charset=utf-8 209.6446ms
+2024-08-29 16:32:15.584 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 3.6939ms
+2024-08-29 16:32:15.620 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.3644ms
+2024-08-29 16:32:15.647 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - null null
+2024-08-29 16:32:15.824 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 176.7631ms
+2024-08-29 16:38:12.623 -07:00 [INF] Request starting HTTP/2 PUT https://localhost:44384/1 - application/json 159013
+2024-08-29 16:38:12.632 -07:00 [INF] CORS policy execution successful.
+2024-08-29 16:38:12.640 -07:00 [INF] Executing endpoint 'Task3.Controllers.CartItemsController.UpdateCartItem (Task3)'
+2024-08-29 16:38:12.669 -07:00 [INF] Route matched with {action = "UpdateCartItem", controller = "CartItems"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateCartItem(Int32, Task3.DTOs.UpdateCartController) on controller Task3.Controllers.CartItemsController (Task3).
+2024-08-29 16:38:13.001 -07:00 [INF] Executed action Task3.Controllers.CartItemsController.UpdateCartItem (Task3) in 325.9239ms
+2024-08-29 16:38:13.003 -07:00 [INF] Executed endpoint 'Task3.Controllers.CartItemsController.UpdateCartItem (Task3)'
+2024-08-29 16:38:13.006 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Deserialization of interface types is not supported. Type 'Microsoft.AspNetCore.Mvc.ActionConstraints.IActionConstraintMetadata'. Path: $.controllerContext.actionDescriptor.actionConstraints[0] | LineNumber: 239 | BytePositionInLine: 9.
+ ---> System.NotSupportedException: Deserialization of interface types is not supported. Type 'Microsoft.AspNetCore.Mvc.ActionConstraints.IActionConstraintMetadata'.
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ThrowNotSupportedException(ReadStack& state, Utf8JsonReader& reader, NotSupportedException ex)
+   at System.Text.Json.ThrowHelper.ThrowNotSupportedException_DeserializeNoConstructor(Type type, Utf8JsonReader& reader, ReadStack& state)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TCollection& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsObjectAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-29 16:38:13.067 -07:00 [INF] Request finished HTTP/2 PUT https://localhost:44384/1 - 500 null text/plain; charset=utf-8 471.8019ms
+2024-08-29 16:40:35.446 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-29 16:40:35.461 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/swagger/index.html - null null
+2024-08-29 16:40:35.478 -07:00 [INF] Hosting environment: Development
+2024-08-29 16:40:35.479 -07:00 [INF] Content root path: C:\Users\Orange\Downloads\Core Task 6\core-task-6\backend\Task3
+2024-08-29 16:40:35.658 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-29 16:40:35.660 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - null null
+2024-08-29 16:40:35.659 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/swagger/index.html - 200 null text/html;charset=utf-8 200.6617ms
+2024-08-29 16:40:35.662 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 4.6448ms
+2024-08-29 16:40:35.696 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.83ms
+2024-08-29 16:40:35.737 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - null null
+2024-08-29 16:40:35.898 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 161.0738ms
+2024-08-29 16:41:15.000 -07:00 [INF] Request starting HTTP/2 PUT https://localhost:44384/1 - application/json 159013
+2024-08-29 16:41:15.005 -07:00 [INF] CORS policy execution successful.
+2024-08-29 16:41:15.009 -07:00 [INF] Executing endpoint 'Task3.Controllers.CartItemsController.UpdateCartItem (Task3)'
+2024-08-29 16:41:15.031 -07:00 [INF] Route matched with {action = "UpdateCartItem", controller = "CartItems"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateCartItem(Int32, Task3.DTOs.UpdateCartController) on controller Task3.Controllers.CartItemsController (Task3).
+2024-08-29 16:41:15.261 -07:00 [INF] Executed action Task3.Controllers.CartItemsController.UpdateCartItem (Task3) in 226.8627ms
+2024-08-29 16:41:15.262 -07:00 [INF] Executed endpoint 'Task3.Controllers.CartItemsController.UpdateCartItem (Task3)'
+2024-08-29 16:41:15.264 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Deserialization of interface types is not supported. Type 'Microsoft.AspNetCore.Mvc.ActionConstraints.IActionConstraintMetadata'. Path: $.controllerContext.actionDescriptor.actionConstraints[0] | LineNumber: 239 | BytePositionInLine: 9.
+ ---> System.NotSupportedException: Deserialization of interface types is not supported. Type 'Microsoft.AspNetCore.Mvc.ActionConstraints.IActionConstraintMetadata'.
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ThrowNotSupportedException(ReadStack& state, Utf8JsonReader& reader, NotSupportedException ex)
+   at System.Text.Json.ThrowHelper.ThrowNotSupportedException_DeserializeNoConstructor(Type type, Utf8JsonReader& reader, ReadStack& state)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TCollection& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsObjectAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-29 16:41:15.295 -07:00 [INF] Request finished HTTP/2 PUT https://localhost:44384/1 - 500 null text/plain; charset=utf-8 296.0787ms
+2024-08-29 16:41:48.996 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-29 16:41:49.017 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/swagger/index.html - null null
+2024-08-29 16:41:49.037 -07:00 [INF] Hosting environment: Development
+2024-08-29 16:41:49.038 -07:00 [INF] Content root path: C:\Users\Orange\Downloads\Core Task 6\core-task-6\backend\Task3
+2024-08-29 16:41:49.243 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-29 16:41:49.244 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - null null
+2024-08-29 16:41:49.243 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/swagger/index.html - 200 null text/html;charset=utf-8 235.8888ms
+2024-08-29 16:41:49.255 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 7.8283ms
+2024-08-29 16:41:49.291 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.8537ms
+2024-08-29 16:41:49.335 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - null null
+2024-08-29 16:41:49.517 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 181.5883ms
+2024-08-29 16:43:31.192 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/AllItems - null null
+2024-08-29 16:43:31.201 -07:00 [INF] Executing endpoint 'Task3.Controllers.CartItemsController.GetAllCartItems (Task3)'
+2024-08-29 16:43:31.215 -07:00 [INF] Route matched with {action = "GetAllCartItems", controller = "CartItems"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllCartItems() on controller Task3.Controllers.CartItemsController (Task3).
+2024-08-29 16:43:32.106 -07:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[Task3.DTOs.CartItemsResponsive, Task3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 16:43:32.932 -07:00 [INF] Executed DbCommand (64ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[Quantity], [p].[product_name] AS [ProductName], [p].[price] AS [Price], [p].[image] AS [Image]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[product_id]
+2024-08-29 16:43:32.982 -07:00 [INF] Executed action Task3.Controllers.CartItemsController.GetAllCartItems (Task3) in 1763.659ms
+2024-08-29 16:43:32.982 -07:00 [INF] Executed endpoint 'Task3.Controllers.CartItemsController.GetAllCartItems (Task3)'
+2024-08-29 16:43:32.991 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/AllItems - 200 null application/json; charset=utf-8 1799.4121ms
+2024-08-29 16:44:24.880 -07:00 [INF] Request starting HTTP/2 PUT https://localhost:44384/0 - application/json 35
+2024-08-29 16:44:24.887 -07:00 [INF] CORS policy execution successful.
+2024-08-29 16:44:24.889 -07:00 [INF] Executing endpoint 'Task3.Controllers.CartItemsController.UpdateCartItem (Task3)'
+2024-08-29 16:44:24.897 -07:00 [INF] Route matched with {action = "UpdateCartItem", controller = "CartItems"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateCartItem(Int32, Task3.DTOs.UpdateCartController) on controller Task3.Controllers.CartItemsController (Task3).
+2024-08-29 16:44:25.097 -07:00 [INF] Executed DbCommand (33ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CartItemID], [c].[CartID], [c].[ProductID], [c].[Quantity]
+FROM [CartItems] AS [c]
+WHERE [c].[CartItemID] = @__p_0
+2024-08-29 16:44:25.100 -07:00 [INF] Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-29 16:44:25.103 -07:00 [INF] Executed action Task3.Controllers.CartItemsController.UpdateCartItem (Task3) in 206.0192ms
+2024-08-29 16:44:25.103 -07:00 [INF] Executed endpoint 'Task3.Controllers.CartItemsController.UpdateCartItem (Task3)'
+2024-08-29 16:44:25.104 -07:00 [INF] Request finished HTTP/2 PUT https://localhost:44384/0 - 404 null application/json; charset=utf-8 224.018ms
+2024-08-29 16:44:47.479 -07:00 [INF] Request starting HTTP/2 PUT https://localhost:44384/51 - application/json 35
+2024-08-29 16:44:47.515 -07:00 [INF] CORS policy execution successful.
+2024-08-29 16:44:47.516 -07:00 [INF] Executing endpoint 'Task3.Controllers.CartItemsController.UpdateCartItem (Task3)'
+2024-08-29 16:44:47.516 -07:00 [INF] Route matched with {action = "UpdateCartItem", controller = "CartItems"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateCartItem(Int32, Task3.DTOs.UpdateCartController) on controller Task3.Controllers.CartItemsController (Task3).
+2024-08-29 16:44:47.565 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CartItemID], [c].[CartID], [c].[ProductID], [c].[Quantity]
+FROM [CartItems] AS [c]
+WHERE [c].[CartItemID] = @__p_0
+2024-08-29 16:44:47.672 -07:00 [INF] Executed DbCommand (9ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [CartItems] SET [CartID] = @p0, [ProductID] = @p1, [Quantity] = @p2
+OUTPUT 1
+WHERE [CartItemID] = @p3;
+2024-08-29 16:44:47.677 -07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Task3.Models.CartItem, Task3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 16:44:47.682 -07:00 [INF] Executed action Task3.Controllers.CartItemsController.UpdateCartItem (Task3) in 166.0248ms
+2024-08-29 16:44:47.682 -07:00 [INF] Executed endpoint 'Task3.Controllers.CartItemsController.UpdateCartItem (Task3)'
+2024-08-29 16:44:47.683 -07:00 [INF] Request finished HTTP/2 PUT https://localhost:44384/51 - 200 null application/json; charset=utf-8 204.3086ms
+2024-08-29 16:45:12.111 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-29 16:45:12.126 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/swagger/index.html - null null
+2024-08-29 16:45:12.139 -07:00 [INF] Hosting environment: Development
+2024-08-29 16:45:12.140 -07:00 [INF] Content root path: C:\Users\Orange\Downloads\Core Task 6\core-task-6\backend\Task3
+2024-08-29 16:45:12.331 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-29 16:45:12.331 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/swagger/index.html - 200 null text/html;charset=utf-8 208.0999ms
+2024-08-29 16:45:12.334 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - null null
+2024-08-29 16:45:12.336 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 5.7479ms
+2024-08-29 16:45:12.372 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.3687ms
+2024-08-29 16:45:12.395 -07:00 [INF] Request starting HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - null null
+2024-08-29 16:45:12.557 -07:00 [INF] Request finished HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 162.5003ms

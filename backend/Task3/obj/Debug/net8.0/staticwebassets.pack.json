@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Orange\\Downloads\\Core Task 6\\Core-Task-7\\backend\\Task3\\wwwroot\\images\\25.08.2024_15.59.05_REC.png",
+      "PackagePath": "staticwebassets\\images\\25.08.2024_15.59.05_REC.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Task3.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Task3.props",
+      "PackagePath": "build\\Task3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Task3.props",
+      "PackagePath": "buildMultiTargeting\\Task3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Task3.props",
+      "PackagePath": "buildTransitive\\Task3.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
